@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+
+	"name": "FormFiller",
+	"description": "Form Filler",
+	"version": "0.0.1",
+	"icons": {
+		"16": "icon/icon16.png",
+		"48": "icon/icon48.png",
+		"128": "icon/icon128.png"
+	},
+	"content_scripts": [
+		{
+			"js": ["content_scripts/form_filler.min.js"],
+			"matches": ["*://*/*"],
+			"run_at": "document_idle"
+		}
+	],
+	"options_page": "options/options.html",
+	"browser_action": {
+		"default_icon": {
+			"16": "icon/icon16.png",
+			"48": "icon/icon48.png",
+			"128": "icon/icon128.png"
+		},
+		"default_title": "FormFiller",
+		"default_popup": "options/options.html"
+	},
+	"permissions": ["storage"]
+}
