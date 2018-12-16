@@ -41,6 +41,6 @@ npm run build
 
 ## LICENSE
 
-[MIT](./LICENSE) @ [ Aung Myo Kyaw ](https://github.com/AungMyoKyaw)
+MIT © [Aung Myo Kyaw](https://github.com/AungMyoKyaw)
 
 [chrome-url]: #
